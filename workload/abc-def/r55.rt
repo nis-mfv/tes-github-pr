@@ -1,0 +1,5 @@
+locals {
+  client_host_names = toset([
+    "12345678",
+    "abcdefgh",        #
+  ])
